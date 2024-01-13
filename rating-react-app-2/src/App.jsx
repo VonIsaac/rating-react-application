@@ -17,7 +17,7 @@ function App() {
 
   
   function setEditButton(){
-    setButton(true)
+    setButton(editbutton => !editbutton)
   }
 
   function Button({number}){
