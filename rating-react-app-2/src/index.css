@@ -1,0 +1,135 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  height: 100vh;
+}
+
+
+.wrapper{
+  border: 1px solid black;
+  width: 25rem;
+  height: 19rem;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: hsl(213, 19%, 18%);
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+.wrapper h2{
+ margin-bottom: 10px;
+ color: hsl(0, 0%, 100%);
+ font-weight: 550;
+ margin-top: 15px;
+  text-align: left;
+}
+
+.wrapper p{
+  color:  hsl(216, 12%, 54%);
+  margin-bottom: 18px;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 15px;
+}
+
+.main-btn{
+  margin-bottom: 15px;
+  padding: 10px;
+  margin-left: 15px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color:   hsl(216, 12%, 8%);
+  border: none;
+  color: hsl(216, 12%, 54%);
+}
+
+.main-btn:hover{
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  transition: 0.9s;
+}
+
+.btn-sub button{
+  padding: 10px;
+  width: 20rem;
+  border-radius: 15px;
+  font-weight: 550;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-sub button:hover{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  transition: 0.5s;
+}
+
+.thank-you{
+  border: 1px solid black;
+  width: 25rem;
+  height: 21rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
+}
+
+.thank-you img{
+  margin-bottom: 10px;
+}
+.p-1{
+  color: hsl(25, 97%, 53%);
+  margin-bottom: 5px;
+}
+
+.thank-you h2{
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 5px;
+}
+
+.p-2{
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 8px;
+}
+
+.thank-you button{
+  padding: 10px;
+  width: 90%;
+  border-radius: 15px;
+  font-weight: 550;
+  letter-spacing: 0.1;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+}
+
+.thank-you button:hover{
+  background-color: hsl(0, 0%, 100%);
+  transition: 0.5s;
+  color: hsl(25, 97%, 53%);
+}
