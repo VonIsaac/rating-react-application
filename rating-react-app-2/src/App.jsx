@@ -53,7 +53,7 @@ function App() {
     </div>
       )}
 
-      {isButton && <Thankyou setEditButtons = { setEditButton} editnumbers = {isNumber}  />}
+      {isButton && <Thankyou setEditButtons = { setEditButton} editnumbers = {isNumber}  thanksyours= "Thank you!"/>}
     </>
   )
 
