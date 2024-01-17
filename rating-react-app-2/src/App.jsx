@@ -2,9 +2,7 @@
 import './App.css'
 import Button from './Components/Button.jsx';
 import { useState } from 'react';
-
-
-
+import Thankyou from "./Components/Thankyou.jsx"
 
 function App() {
   const [isButton, setButton] = useState(false);
@@ -30,6 +28,12 @@ function App() {
         setNumberEdit ={setEditNumber}
         setButtonEdit = {setEditButton}
       />
+
+      {isButton &&(
+       <Thankyou setEditButtons = {setEditButton}
+        editnumbers = {setEditNumber}  
+        thanksyours= "Thank you!"/>
+        )}
     </>
   )
 

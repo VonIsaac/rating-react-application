@@ -1,6 +1,6 @@
-import Thankyou from "../Components/Thankyou.jsx"
 
-export default function Button({ isButtons, isNumbers, setNumberEdit, setButtonEdit}){
+
+export default function Button({ isButtons, setNumberEdit, setButtonEdit}){
 
     function Button({number}){
         return(
@@ -35,7 +35,7 @@ export default function Button({ isButtons, isNumbers, setNumberEdit, setButtonE
       </div>
         )}
   
-        {isButtons && <Thankyou setEditButtons = {setButtonEdit} editnumbers = {isNumbers}  thanksyours= "Thank you!"/>}
+        
       </>
     )
 }
